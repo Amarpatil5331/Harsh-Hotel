@@ -1,0 +1,15 @@
+package com.hotel.entity.dtos.orders;
+
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class OrderTableDto {
+    private String tableName;
+    private List<String> chairs;
+}
